@@ -18,7 +18,7 @@ export const App = () => {
         add100();
       }
 
-      return current + 1;
+      return current % 5 === 0 ? current + 101 : current + 1;
     });
   };
 
